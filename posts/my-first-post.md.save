@@ -1,0 +1,25 @@
+---
+title: "My First Post"
+date: 2018-06-25T19:53:42-04:00
+draft: false
+---
+I don't think this poker project has to be that complex.  Right off the bat,
+I would have a user enter how many players there will be.  I would create
+a list of every card possible.  I think it would have to subsist of four
+lists to separate the suits, with each list containing the card numbers.
+Then, a for loop would run x times, with x being the number of players.   The
+loop would give each player 5 cards by randomly choosing from the list.  It 
+would also need to check if a card is a repeat and replace it if it's already
+in a hand.  It could add these to new lists for each player, then print 
+each player's "hand" list.  If I decide to take the easy route, I could just
+ignore the suits and simply have 4 copies of each card number.  I would assign
+each card a value, with ace being the highest and 2 being the lowest.  I could
+find the player with a card of the highest value and print out the winner.  If
+I decide on the harder route, it would probably take a lot of if statements
+to decide if a player has a certain hand.  Each different hand would also have
+a different value, with royal flush (or whatever is the best hand) being the 
+highest, and a pair being the lowest.  It would also have to compare the
+highest card in that hand if another player happens to have the same hand.
+
+Current build of project: https://github.com/brantv/ixperience_2018_personal.git
+
